@@ -34,7 +34,7 @@ saveData <- function(input) {
   data$submit_time <- date()
   
   # Create a unique file name by order of participation
-  num_responses <- length(list.files(output_location)) + 1
+  num_responses <- length(list.files(output_location))
   fileName <- paste("./", output_location, "/", num_responses,".csv",sep="")
   
   # write data to file
