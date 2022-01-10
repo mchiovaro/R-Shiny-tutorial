@@ -1,0 +1,1 @@
+This folder is where the participant's input data gets stored. Each file corresponds to one participant. At the end of the survey, the participant is given a number. You can then add additional app features that allow them to view their data (by searching for their number) with respect to the deidentified data of other participants.
